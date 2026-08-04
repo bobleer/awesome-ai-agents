@@ -732,6 +732,28 @@ General purpose, Productivity
 </details>
 
 
+## [BitFun](https://github.com/GCWing/BitFun)
+Desktop agent that works in real repos and drives your desktop
+
+<details>
+
+![Image](https://raw.githubusercontent.com/GCWing/BitFun/main/png/first_screen_screenshot.png)
+
+### Category
+Coding, General purpose
+
+### Description
+- BitFun is an open-source desktop application whose Agent Runtime is written in Rust. It works inside real repositories — planning, editing files, running tests, and using Git — and also handles document work such as research, slides, spreadsheets, and reports.
+- Beyond the editor it can operate the browser, desktop applications, the terminal, and remote workspaces, so tasks that leave the codebase stay in one place.
+- Extensible through custom Agents, MCP, Skills, Mini Apps (task-specific UIs), and Codex-compatible hooks. Model-agnostic — you configure which model it runs against.
+
+### Links
+- [GitHub](https://github.com/GCWing/BitFun)
+- [Website](https://openbitfun.com/)
+- [Releases](https://github.com/GCWing/BitFun/releases) (macOS, Windows, Linux)
+</details>
+
+
 ## [Blinky](https://github.com/seahyinghang8/blinky)
 An open-source AI debugging agent for VSCode
 
