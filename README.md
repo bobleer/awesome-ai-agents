@@ -733,7 +733,7 @@ General purpose, Productivity
 
 
 ## [BitFun](https://github.com/GCWing/BitFun)
-Desktop agent that works in real repos and drives your desktop
+Desktop agent that builds each task its own interface, not another chat box
 
 <details>
 
@@ -743,9 +743,10 @@ Desktop agent that works in real repos and drives your desktop
 Coding, General purpose
 
 ### Description
-- BitFun is an open-source desktop application whose Agent Runtime is written in Rust. It works inside real repositories — planning, editing files, running tests, and using Git — and also handles document work such as research, slides, spreadsheets, and reports.
-- Beyond the editor it can operate the browser, desktop applications, the terminal, and remote workspaces, so tasks that leave the codebase stay in one place.
-- Extensible through custom Agents, MCP, Skills, Mini Apps (task-specific UIs), and Codex-compatible hooks. Model-agnostic — you configure which model it runs against.
+- BitFun is an open-source desktop application whose Agent Runtime is written in Rust. Its defining idea is the Mini App: rather than pushing every task through one chat box, it builds the task its own interface — a chart, a board, a form, a panel — and binds a conversation to that interface's live state, so you ask about what is on screen instead of re-describing it.
+- Account login, cross-device session sync, and controlling one signed-in device from another run through a relay you deploy yourself, with no vendor cloud in the path — which is often what decides whether an agent is permitted inside a company network.
+- The runtime is reshapeable across four continuous tiers: custom Agents, then MCP / Skills / Codex-compatible Hooks, then Mini Apps, then source-level changes. Model-agnostic.
+- Underneath: prompt assembly is byte-stable across turns for KV cache reuse (98.67% average hit over a SWE-Bench-Pro run), and a resident cross-turn code index cuts search time up to 94.6% on Chromium-scale trees.
 
 ### Links
 - [GitHub](https://github.com/GCWing/BitFun)
