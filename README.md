@@ -733,25 +733,24 @@ General purpose, Productivity
 
 
 ## [BitFun](https://github.com/GCWing/BitFun)
-Desktop agent that builds each task its own interface, not another chat box
+Open-source desktop agent with task-specific Mini Apps
 
 <details>
 
-![Image](https://raw.githubusercontent.com/GCWing/BitFun/main/png/first_screen_screenshot.png)
+![Mini Apps gallery](https://raw.githubusercontent.com/GCWing/BitFun/main/png/miniapps_gallery.png)
 
 ### Category
-Coding, General purpose
+Coding, Productivity
 
 ### Description
-- BitFun is a cross-platform desktop application whose Agent Runtime is written in Rust. Its defining idea is the Mini App: rather than pushing every task through one chat box, it builds the task its own interface — a chart, a board, a form, a panel — and binds a conversation to that interface's live state, so you ask about what is on screen instead of re-describing it.
-- Account login, cross-device session sync, and controlling one signed-in device from another run through a relay you deploy yourself, with no vendor cloud in the path — which is often what decides whether an agent is permitted inside a company network.
-- The runtime is reshapeable across four continuous tiers: custom Agents, then MCP / Skills / Codex-compatible Hooks, then Mini Apps, then source-level changes. It supports multiple model providers.
-- Underneath, prompt assembly is byte-stable across turns for KV cache reuse, and a resident cross-turn code index keeps hot-file and identifier lookups available without cold rescanning.
+- An open-source desktop agent for coding and office work
+- Agentic Mini Apps give tasks dedicated interfaces such as charts, boards, forms, and panels, with conversation bound to the interface live state
+- A Rust runtime with extension paths from custom Agents and MCP / Skills / Hooks through Mini Apps and source-level customization
 
 ### Links
 - [GitHub](https://github.com/GCWing/BitFun)
 - [Website](https://openbitfun.com/)
-- [Releases](https://github.com/GCWing/BitFun/releases) (macOS, Windows, Linux)
+
 </details>
 
 
